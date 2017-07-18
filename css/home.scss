@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+  background:linear-gradient(to right,#848990,#83888E,#DCDDE1,#F0F1F3); 
+    height: 100%;
+}
+
+    //头部
+.header{
+    width: 100%;
+    .header_top{
+        width: 100%;
+    margin: 0 auto;
+        height:28px; 
+        background:#eee;
+        .top{
+            width: 950px;
+            margin: 0 auto;
+             a{
+            display: block;
+          float: left;
+        }
+        .header_right{
+            float: right;
+            ul{
+            float: left;
+            margin-right: 58px;
+            width: 290px;
+            height: 28px;
+            line-height: 28px;
+            li{
+                float: left;
+                padding: 0 8px;
+            }
+        }
+        div{
+            float: right;
+            width: 102px;
+            padding-top: 2px;
+            padding-left: 10px;
+            height: 20px;
+            border: 1px solid gainsboro;
+            span{
+                float: left;
+            }
+            .number{
+                width: 18px;
+                height: 18px;
+                text-align: center;
+                line-height: 18px;
+                background: orange;
+                border-radius: 50%;
+                color: white;
+                margin-left: 8px;
+                margin-right: 4px;
+            }
+        }
+        }
+        }
+       
+        
+        :after{
+            display: block;
+            clear: both;
+            content: '';
+        }
+    }
+    .header_bottom{
+        width: 950px;
+        margin: 0 auto;
+        .cont_left{
+            float: left;
+            height: 100px;
+        line-height: 100px;
+        span{
+            font-size: 22px;
+            font-weight: bold;
+        }
+        }
+        .cont_right{
+            float: right;
+            margin-top: 56px;
+            img{
+                vertical-align: middle;
+            }
+            span{
+                line-height: 12px;
+            }
+        }
+    }
+    .header_bottom:after{
+            display: block;
+            clear: both;
+            content: '';
+        }
+    //导航
+    .nav{
+        height: 40px;
+        background: #95969B;
+        .nav_box{
+            width: 950px;
+            text-align: center;
+            height: 40px;
+            margin: 0 auto;
+            .l_nav{
+                float: left;
+                text-align: center;
+                margin-top: 14px;
+                line-height: 14px;
+                li{
+                    float: left;
+                    padding: 0 43px 0 10px;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+  }
+  .content{
+      width: 950px;
+      background: white;
+        margin: 0 auto;
+       margin-bottom: 10px;
+      .banner{
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+      .cont-box{
+          padding-top: 12px;
+          float: left;
+          padding-left: 4px;
+          
+          .ul_1{
+              background:linear-gradient(to bottom,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#F2F2F2); 
+              border: 1px solid gainsboro;
+              width: 222px;
+              height: 324px;
+              float: left;
+              .li_1{
+                background:linear-gradient(to bottom,#FFFFFF,#F2F2F2); 
+                  margin: 8px;
+                  line-height: 30px;
+                  width: 206px;
+                  height: 30px;
+                  border: 1px solid gainsboro;
+                  a{ 
+                    padding-left: 14px;
+                    font-weight: bold;
+                  }
+              }
+          }
+      }
+  }
+  .content:after{
+      display: block;
+      clear: both;
+      content: '';
+  }
+  .footer{
+      width: 950px;
+        margin: 0 auto;
+      height: 128px;
+  background:linear-gradient(to right,#DCDDE1,#83888E,#F0F1F3); 
+      border-top: 2px solid gray;
+      border-bottom: 2px solid gray;
+      .footer_left{
+          float: left;
+          margin-left: 8px;
+          height: 128px;
+          line-height: 128px;
+          font-size: 30px;
+      }
+      .footer_right{
+          height: 128px;
+          text-align: right;
+          color: gray;
+          margin-top: 17px;
+          margin-right: 9px;
+          float: right;
+          p{
+              margin-top: 12px;
+              
+          }
+      }
+  }

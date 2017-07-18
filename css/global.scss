@@ -1,0 +1,81 @@
+.abduce{
+    width: 713px;
+    overflow: hidden;
+    background: white;
+    float: left;
+    margin-top: -13px;
+    .abduce_top{
+        width: 703px;
+        height: 40px;  
+        border-bottom: 1px solid #DCDCDC;  
+        font-size: 12px;
+        font-family: "宋体";
+        margin-left: 16px;
+        img{
+            margin-top: 18px;
+            float: left;
+        }
+        h3{
+             height: 40px;
+             float: left;
+             line-height: 52px;
+        }
+    }
+    .abduce_content{
+        width: 703px;
+        margin-left: 16px;
+        overflow: hidden;
+        .ulss{
+            width: 703px;
+            height: 762px;
+            margin-top: 14px;
+            li{
+                width: 182px;
+                height: 156px;
+                margin: 0 26px 33px;
+                float: left;
+                a{
+                    display: block;
+                    text-align: center;
+                    width: 182px;
+                    height: 135px;
+                    border: 1px solid #9E9E9E;
+                    img{
+                        margin-top: 4px;
+                        width: 174px;
+                        height: 127px;
+                    }
+                }
+                p{
+                       width: 184px;
+                       height: 21px;
+                       background: #7F7F7F;
+                       color: #FFFFFF;
+                       text-align: center;
+                       line-height: 21px;
+                }
+            }
+        }
+    }
+    .abduce_bottom{
+        width: 703px;
+        height: 62px;
+        margin-left: 16px;
+//       border: 1px solid red;
+        .button{
+            width: 146px;
+            height: 36px;
+            margin: 0 auto;
+//          border: 1px solid red;
+            input{
+                width: 32px;
+                height: 30px;
+                margin-top: 3px;
+                background: linear-gradient(#CCCCCC,#9B9B9B);
+                border-radius: 5px;
+                border: none;
+                color: #797979;
+            }
+        }
+    }
+}
